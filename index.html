@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>E17 Studio — Websites for East London Businesses</title>
-<meta name="description" content="We build websites for East London businesses. See your preview before you pay. From £249. Live in 48 hours. No faff.">
+<meta name="description" content="We build websites for East London businesses. See your preview before you pay. Live in 48 hours. No faff.">
 <meta name="keywords" content="web design Walthamstow, websites East London, E17 web design, local business website, cheap website London">
 <link rel="canonical" href="https://e17studio.com">
 <meta property="og:title" content="E17 Studio — Websites for East London">
-<meta property="og:description" content="We build websites for East London businesses. See your preview first, pay after. From £249.">
+<meta property="og:description" content="We build websites for East London businesses. See your preview first, pay after.">
 <meta property="og:url" content="https://e17studio.com">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -325,7 +325,6 @@ img { max-width: 100%; display: block; }
 }
 
 /* ─── Section helpers ─── */
-.section { padding: 100px 28px; max-width: 1100px; margin: 0 auto; }
 .section-eyebrow {
   display: inline-block;
   font-family: var(--font-display);
@@ -440,211 +439,6 @@ img { max-width: 100%; display: block; }
   object-position: top center;
   display: block;
   background: #eee;
-}
-
-/* ─── Process ─── */
-.process-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0;
-  margin-top: 64px;
-  border: 2px solid var(--border-dark);
-  border-radius: var(--radius);
-  overflow: hidden;
-  background: var(--cream-card);
-}
-.process-step {
-  padding: 48px 36px;
-  border-right: 2px solid var(--border-dark);
-  position: relative;
-  transition: background 0.2s;
-}
-.process-step:last-child { border-right: none; }
-.process-step:hover { background: rgba(196,59,46,0.03); }
-.process-num {
-  font-family: var(--font-display);
-  font-size: 4.5rem;
-  font-weight: 900;
-  font-stretch: 120%;
-  letter-spacing: -0.06em;
-  color: var(--red);
-  line-height: 1;
-  margin-bottom: 20px;
-  opacity: 0.8;
-}
-.process-title {
-  font-family: var(--font-display);
-  font-size: 1.3rem;
-  font-weight: 800;
-  margin-bottom: 10px;
-  letter-spacing: -0.02em;
-}
-.process-body { font-size: 0.9rem; color: var(--text-muted); line-height: 1.7; }
-.process-note {
-  display: inline-block;
-  margin-top: 16px;
-  font-family: var(--font-display);
-  font-size: 0.72rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--red);
-}
-
-/* ─── Package card ─── */
-.package-wrap {
-  padding: 100px 28px;
-  background: var(--dark);
-  position: relative;
-  overflow: hidden;
-}
-/* Decorative background text */
-.package-wrap::before {
-  content: '£249';
-  position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: var(--font-display);
-  font-size: clamp(15rem, 30vw, 30rem);
-  font-weight: 900;
-  font-stretch: 130%;
-  color: rgba(255,255,255,0.03);
-  white-space: nowrap;
-  pointer-events: none;
-  letter-spacing: -0.05em;
-}
-.package-inner { max-width: 1100px; margin: 0 auto; position: relative; }
-.package-header-row { margin-bottom: 56px; text-align: center; }
-.package-header-row .section-eyebrow { color: var(--yellow); }
-.package-header-row .section-title { color: var(--cream); }
-.package-header-row .section-sub { color: rgba(255,255,255,0.5); margin: 0 auto; }
-
-.package-card {
-  max-width: 660px; margin: 0 auto;
-  background: var(--cream-card);
-  border: 2px solid var(--border-dark);
-  border-radius: 20px;
-  overflow: hidden;
-  position: relative;
-}
-.package-card::before {
-  content: '';
-  position: absolute; top: 0; left: 0; right: 0;
-  height: 4px;
-  background: var(--red);
-}
-.pkg-header {
-  padding: 40px 40px 28px;
-  border-bottom: 2px solid var(--border-dark);
-}
-.pkg-eyebrow {
-  font-family: var(--font-display);
-  font-size: 0.7rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  color: var(--red);
-  margin-bottom: 10px;
-  font-stretch: 120%;
-}
-.pkg-name {
-  font-family: var(--font-display);
-  font-size: 1.9rem;
-  font-weight: 900;
-  letter-spacing: -0.03em;
-  margin-bottom: 6px;
-}
-.pkg-desc { font-size: 0.9rem; color: var(--text-muted); }
-
-.pkg-price-row {
-  padding: 32px 40px;
-  display: flex; align-items: flex-end; gap: 14px;
-  border-bottom: 2px solid var(--border-dark);
-  background: rgba(196,59,46,0.03);
-}
-.price-main {
-  display: flex; align-items: baseline; gap: 2px;
-  line-height: 1;
-}
-.price-symbol {
-  font-family: var(--font-display);
-  font-size: 2rem;
-  font-weight: 900;
-  color: var(--red);
-}
-.price-digits {
-  font-family: var(--font-display);
-  font-size: 5rem;
-  font-weight: 900;
-  font-stretch: 110%;
-  letter-spacing: -0.05em;
-  color: var(--red);
-  line-height: 1;
-}
-.price-was {
-  font-size: 1.1rem;
-  color: var(--text-muted);
-  text-decoration: line-through;
-  padding-bottom: 6px;
-  opacity: 0.6;
-}
-.price-note {
-  margin-left: auto;
-  text-align: right;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  line-height: 1.55;
-  padding-bottom: 4px;
-}
-.price-note strong { color: #1a8f40; font-weight: 600; }
-
-.pkg-features {
-  padding: 28px 40px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px 32px;
-  border-bottom: 2px solid var(--border-dark);
-}
-.pkg-feat {
-  display: flex; align-items: flex-start; gap: 9px;
-  font-size: 0.88rem;
-  line-height: 1.4;
-}
-.pkg-feat::before {
-  content: '✓';
-  color: var(--red);
-  font-weight: 800;
-  font-size: 0.85rem;
-  margin-top: 1px;
-  flex-shrink: 0;
-}
-
-.pkg-domain-note {
-  padding: 14px 40px;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  border-bottom: 2px solid var(--border-dark);
-  line-height: 1.5;
-}
-.pkg-domain-note strong { color: var(--dark); }
-.pkg-cta { padding: 24px 40px; }
-.btn-full {
-  display: block;
-  width: 100%;
-  background: var(--red);
-  color: var(--cream);
-  padding: 18px;
-  border-radius: 12px;
-  font-weight: 700;
-  font-size: 1.05rem;
-  text-align: center;
-  transition: all 0.25s;
-  box-shadow: 0 4px 0 #9B2D22;
-  border: none; cursor: pointer;
-}
-.btn-full:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 0 #9B2D22, 0 10px 30px rgba(196,59,46,0.25);
 }
 
 /* ─── Contact ─── */
@@ -816,10 +610,6 @@ img { max-width: 100%; display: block; }
   .stats { grid-template-columns: repeat(2, 1fr); }
   .stat:nth-child(2) { border-right: none; }
   .showcase-grid { grid-template-columns: 1fr; max-width: 460px; }
-  .process-grid { grid-template-columns: 1fr; }
-  .process-step { border-right: none; border-bottom: 2px solid var(--border-dark); }
-  .process-step:last-child { border-bottom: none; }
-  .pkg-features { grid-template-columns: 1fr; }
   .contact-inner { grid-template-columns: 1fr; gap: 40px; }
 }
 @media (max-width: 600px) {
@@ -827,17 +617,9 @@ img { max-width: 100%; display: block; }
   .hero-deco { display: none; }
   .stat { padding: 32px 16px; }
   .stat-num { font-size: 2.4rem; }
-  .section { padding: 72px 20px; }
   .showcase-wrap { padding: 72px 20px; }
-  .package-wrap { padding: 72px 20px; }
   .contact-wrap { padding: 72px 20px; }
   .contact-form { padding: 24px; }
-  .pkg-header { padding: 28px 24px 20px; }
-  .pkg-price-row { padding: 20px 24px; flex-wrap: wrap; }
-  .pkg-features { padding: 20px 24px; }
-  .pkg-domain-note { padding: 12px 24px; }
-  .pkg-cta { padding: 20px 24px; }
-  .price-digits { font-size: 3.8rem; }
   .footer-inner { flex-direction: column; align-items: flex-start; }
   .footer-links { align-items: flex-start; }
   .hero-actions { flex-direction: column; width: 100%; }
@@ -852,8 +634,6 @@ img { max-width: 100%; display: block; }
   <a href="/" class="nav-logo">e17studio</a>
   <ul class="nav-links">
     <li><a href="#work">Work</a></li>
-    <li><a href="#process">Process</a></li>
-    <li><a href="#pricing">Pricing</a></li>
   </ul>
   <a href="#contact" class="nav-cta">Say Hello &rarr;</a>
 </nav>
@@ -960,21 +740,6 @@ img { max-width: 100%; display: block; }
     <div class="showcase-card reveal">
       <div class="browser-bar">
         <span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span>
-        <span class="browser-url">lina-al-obaidi.at</span>
-      </div>
-      <iframe class="showcase-iframe" src="/portfolio/lina-al-obaidi/" loading="lazy" title="Lina Al Obaidi website"></iframe>
-      <div class="showcase-footer">
-        <div>
-          <div class="showcase-name">Lina Al Obaidi</div>
-          <div class="showcase-type">Speech Therapy &middot; Wien</div>
-        </div>
-        <span class="pill pill-demo">Demo</span>
-      </div>
-    </div>
-
-    <div class="showcase-card reveal">
-      <div class="browser-bar">
-        <span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span>
         <span class="browser-url">mr-raja-maths.co.uk</span>
       </div>
       <iframe class="showcase-iframe" src="/portfolio/mr-raja-maths-tutor/" loading="lazy" title="Mr Raja Maths Tutor website"></iframe>
@@ -984,88 +749,6 @@ img { max-width: 100%; display: block; }
           <div class="showcase-type">Maths Tuition &middot; Barkingside</div>
         </div>
         <span class="pill pill-demo">Demo</span>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ─── PROCESS ─── -->
-<section class="section" id="process">
-  <div class="reveal">
-    <div class="section-eyebrow">How It Works</div>
-    <h2 class="section-title">Dead simple.<br>Three steps. That's it.</h2>
-  </div>
-
-  <div class="process-grid">
-    <div class="process-step reveal">
-      <div class="process-num">01</div>
-      <h3 class="process-title">You say hello</h3>
-      <p class="process-body">Drop us an email. Tell us your business name and what you do. Two minutes, tops. We handle the rest.</p>
-      <span class="process-note">&rarr; 2 minutes</span>
-    </div>
-    <div class="process-step reveal">
-      <div class="process-num">02</div>
-      <h3 class="process-title">We build it</h3>
-      <p class="process-body">We design and build your full website within 48 hours. You get a live preview link &mdash; no payment needed yet.</p>
-      <span class="process-note">&rarr; 48 hours</span>
-    </div>
-    <div class="process-step reveal">
-      <div class="process-num">03</div>
-      <h3 class="process-title">You decide</h3>
-      <p class="process-body">Love it? It's yours for £249. Not feeling it? You owe us nothing. Zero risk, zero catch, zero awkwardness.</p>
-      <span class="process-note">&rarr; Zero risk</span>
-    </div>
-  </div>
-</section>
-
-<!-- ─── PACKAGE ─── -->
-<div class="package-wrap" id="pricing">
-  <div class="package-inner">
-    <div class="package-header-row reveal">
-      <div class="section-eyebrow">Pricing</div>
-      <h2 class="section-title">One price.<br>Everything included.</h2>
-      <p class="section-sub" style="margin: 0 auto;">No subscriptions. No hidden fees. No "well actually..." moments.</p>
-    </div>
-
-    <div class="package-card reveal">
-      <div class="pkg-header">
-        <div class="pkg-eyebrow">The Genesis Package</div>
-        <div class="pkg-name">Complete Digital Foundation</div>
-        <div class="pkg-desc">Everything your business needs to go from zero to professional online presence.</div>
-      </div>
-
-      <div class="pkg-price-row">
-        <div class="price-main">
-          <span class="price-symbol">£</span>
-          <span class="price-digits">249</span>
-        </div>
-        <span class="price-was">£499+</span>
-        <div class="price-note">
-          One-time payment<br>
-          <strong>Free preview first</strong>
-        </div>
-      </div>
-
-      <div class="pkg-features">
-        <div class="pkg-feat">Professional landing page</div>
-        <div class="pkg-feat">3 custom logo concepts</div>
-        <div class="pkg-feat">Mobile-optimised design</div>
-        <div class="pkg-feat">Google Maps integration</div>
-        <div class="pkg-feat">Contact form</div>
-        <div class="pkg-feat">Google-ready SEO setup</div>
-        <div class="pkg-feat">Click-to-call + WhatsApp</div>
-        <div class="pkg-feat">Social media links</div>
-        <div class="pkg-feat">5 revisions</div>
-        <div class="pkg-feat">Free preview &mdash; no upfront cost</div>
-      </div>
-      <div class="pkg-domain-note">
-        <strong>Domain name:</strong> We help you register your .co.uk or .com &mdash; you pay for it directly (typically £10-15/year).
-      </div>
-
-      <div class="pkg-cta">
-        <a href="#contact" class="btn-full">
-          Get Started &mdash; Say Hello
-        </a>
       </div>
     </div>
   </div>
